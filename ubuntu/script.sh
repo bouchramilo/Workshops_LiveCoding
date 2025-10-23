@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# 1. Créer dossier principal et sous-dossier : 
+# 1
 mkdir -p "mon_projet" "mon_projet/documents" "mon_projet/logs" "mon_projet/sauvegardes"
 
-# 2. Générer un fichier log avec les nombres de 1 à 50
+# 2
 for i in {1..50};do
 	echo $i >> "mon_projet/logs/logdata.txt"
 done
 
-# 3. Créer deux fichiers texte avec contenu spécifique
+# 3
 echo "Contenu du fichier A" > "mon_projet/documents/fichierA.txt"
 echo "Contenu du fichier B" > "mon_projet/documents/fichierB.txt"
 
-# 4. Générer un rapport daté
+# 4
 date_actuelle=$(date +"%Y-%m-%d")
 rapport="mon_projet/rapport_$date_actuelle.txt"
 
