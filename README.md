@@ -1,2 +1,6 @@
 # Workshops_LiveCoding
-les workshops et les live coding
+les workshops et les live coding : 
+
+
+* **Ubuntu**
+* **Pandas**
